@@ -1,0 +1,38 @@
+
+### Get all product
+GET http://localhost:3000/product
+
+### get product by ID
+GET   http://localhost:3000/product/5e662d61c6ccb327caa6c11c
+
+### Create product
+POST http://localhost:3000/product
+Content-Type: application/json
+
+{
+    "name": "iPhone 10",
+    "price": 1999 
+}
+
+### update prodyct
+PATCH  http://localhost:3000/product/5e662d61c6ccb327caa6c11c
+Content-Type: application/json
+
+{
+    "price": 11122
+}
+
+### Delete product
+DELETE  http://localhost:3000/product/5e65e540df00001cfdd63f68
+
+###
+GET http://localhost:3000
+
+###
+POST http://localhost:3000/test
+Content-Type: application/json
+
+{
+    "name": "imac",
+    "pricea": 1000.23
+}
